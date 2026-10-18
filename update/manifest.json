@@ -5,7 +5,7 @@
   "from": [
     "0.03.3"
   ],
-  "publishedAt": "2026-10-18T17:15:22.983Z",
+  "publishedAt": "2026-10-18T17:23:46.195Z",
   "notes": "v0.03.4：新增自动更新；修复额外上阵栏位、萨满战鼓、王室铸币、军需官描述",
   "files": {
     "data/backups.json": {
@@ -1093,8 +1093,8 @@
       "sha256": "a133da2ee017f49e593d03f1f07fae8f1ea1dd40f4ec8fd85a44068cccfd7de2"
     },
     "server/index.js": {
-      "size": 39652,
-      "sha256": "1cd459725edd464e110ec589a659920b1009a102b3514a0684c131d03a6f519a"
+      "size": 39927,
+      "sha256": "36cacb50771b2009d8077eedffdd0ce4a2a0f5a5e29d92921688ef75aa204881"
     },
     "server/lobby.js": {
       "size": 136865,
@@ -2736,8 +2736,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.03.4.tar.gz",
-    "size": 4689336,
-    "sha256": "c215fb09b5022abe9a6f223c02ea46fc8221a289c3e6b07c9595654d093a90ea",
+    "size": 4689407,
+    "sha256": "4112c3e6586fe84770dfcfd70d4bf59b620ec84e3ea3c8a8f679787e6fe47cb6",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.03.4.tar.gz"
   }
 }
