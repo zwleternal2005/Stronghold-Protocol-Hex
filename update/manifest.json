@@ -5,7 +5,7 @@
   "from": [
     "0.03.4"
   ],
-  "publishedAt": "2026-10-18T20:47:51.656Z",
+  "publishedAt": "2026-10-18T20:50:28.436Z",
   "notes": "海克斯模组 v0.04 · 混沌投掷（赌神/赌王/赌徒）· 飞升系列 · 海克斯熔毁协议 · 选择画面蓝金白改版",
   "files": {
     "public/css/screens/hex.css": {
@@ -108,8 +108,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.tar.gz",
-    "size": 209540,
-    "sha256": "d5cec4e362052906b8832d1fd6b9355b2ec192a580a8fef964db9274d4bfdc0e",
-    "url": "https://cdn.jsdelivr.net/gh/Zwleternal2005/Stronghold-Protocol-Hex@main/update/packs/hexmod-update-0.04.tar.gz"
+    "size": 209543,
+    "sha256": "30afd9f5c5c1f0ae38530a17e774213cddbdb464ece81188041c67fd77879f41",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.tar.gz"
   }
 }
