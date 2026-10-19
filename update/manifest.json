@@ -1,115 +1,111 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.04",
+  "version": "0.04.1",
   "from": [
-    "0.03.4"
+    "0.04"
   ],
-  "publishedAt": "2026-10-18T20:53:00.008Z",
-  "notes": "海克斯模组 v0.04 · 混沌投掷（赌神/赌王/赌徒）· 飞升系列 · 海克斯熔毁协议 · 选择画面蓝金白改版",
+  "publishedAt": "2026-10-19T09:56:20.254Z",
+  "notes": "道具商店 / 装备库存上限全局解除 / 盟约定向刷新20% / 修复无尽熔毁与人事部文档 / 攻速上限3000",
   "files": {
+    "data/effects.json": {
+      "size": 253407,
+      "sha256": "7f290c46e1a6612b8a495404415b815625bdf817ff73fe64413ed93e5c2cd66e"
+    },
+    "data/items.json": {
+      "size": 170786,
+      "sha256": "13a4e30c067f0874d5019edeb442294aa2b92ebfbfabef5d701d54cf92823742"
+    },
     "public/css/screens/hex.css": {
-      "size": 51371,
-      "sha256": "c7877f445f4057f46705c8377aa469dc81acac78aa31b1b82ca4edd4b9a08c87"
+      "size": 57838,
+      "sha256": "70c37f8eaa540513f1674b50fdd1955987956855d4ca4fd202281299286e70b4"
     },
     "public/js/screens/game.js": {
-      "size": 110711,
-      "sha256": "f560c8eb8101ec711bc7abb7978f987d7b9354882e37c90280fb6e2037b23913"
+      "size": 111185,
+      "sha256": "9facc20dca7b393fdcb2d0a5dd6c59b5e9d8b80429ac545bff4c1d1067d31e96"
     },
-    "public/js/ui/chaosRollOverlay.js": {
-      "size": 5660,
-      "sha256": "cdbcffc247743ba09ce93ee9b7d3cb265713fb77c4638b02858dca22a5f6b074"
+    "public/js/screens/room.js": {
+      "size": 85835,
+      "sha256": "fcc63850854c4fa31493609798c7e4b9b7f6e25fb9a1b376669d322cea953d09"
     },
     "public/js/ui/gameActions.js": {
-      "size": 7843,
-      "sha256": "8c276540fcf718e56741b78e844a1c314bd4b453f25bcbdbe6939883eeb51a1d"
+      "size": 8045,
+      "sha256": "9e871f1a12062e6b34b3e905c186758fe72cd24aa505b62545a1fed5ee9b189f"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 27188,
-      "sha256": "3ac7f2fafeab22d35450a1a6b5998b20a881cb6f625cf48989bbfe4c48a28011"
+      "size": 30015,
+      "sha256": "5ad5b38bc8423b41f48e7140270df0f075d5ae4f2776433ccc3e3484b4bacb73"
     },
-    "public/js/ui/hexOverlay.js": {
-      "size": 10402,
-      "sha256": "3418d404f0c9d4e47b8c4c35a1b488e61f21174f98d846edfe1e4bd9ef031f7a"
+    "public/js/ui/itemShopOverlay.js": {
+      "size": 4937,
+      "sha256": "3a0420ad59a6f95a40f31c8227e865084d8a2bc586bc54a1963f49179ef0b6f0"
     },
-    "public/js/ui/meltdownOverlay.js": {
-      "size": 9256,
-      "sha256": "9440210cc784d3def76c28a585d23c09be657b1c0136e9a73729079a302925f4"
+    "public/js/ui/shopBar.js": {
+      "size": 30283,
+      "sha256": "965b8971da1395e47320005a6d6d4aa317c60b6d86c59de64ec61d40361a9d43"
     },
-    "server/autoUpdate.js": {
-      "size": 17548,
-      "sha256": "e80384092c0086aa2258ae3e44508c5b19fa4dd4ce6d5e110ec3c2bbd49f12c9"
+    "server/match/builtinMeta.js": {
+      "size": 20712,
+      "sha256": "ea3dcf2044001abbb3b1b7d78c9f8dbe3d178497a04d85b0efb88e4ca22859ce"
     },
-    "server/match/Match.js": {
-      "size": 47981,
-      "sha256": "de12b10ade9430651c528ad6cc021b4f7ce12f0525f135b60423c0e4343d7deb"
+    "server/match/effectsMeta.js": {
+      "size": 43641,
+      "sha256": "11a37b1480d8e257923401f6641dad77b4497b172b5d43dc5411d3786537e2c6"
     },
-    "server/match/match/bossRounds.js": {
-      "size": 34697,
-      "sha256": "1a5e20ce7f243c83e76195cbb01b1e7bed4d7be625773e9b22407520b54ce2fc"
-    },
-    "server/match/match/chaosRoll.js": {
-      "size": 12299,
-      "sha256": "63d51f68839f2b50caf8141e49bbe91131eacb4fa6e6b47b424e329f6ad06c67"
-    },
-    "server/match/match/combat.js": {
-      "size": 11988,
-      "sha256": "7cf20e4887c47ae3ce39a5f8453ac41c932c132be01ef16181fc61910bda9212"
-    },
-    "server/match/match/hexDraft.js": {
-      "size": 63485,
-      "sha256": "e013232b6f718326f64e052b4efa68792009e2c8b9a6d5ce3be46befc2d6579f"
+    "server/match/invariants.js": {
+      "size": 19860,
+      "sha256": "90b395c4fa95932b9d1d2fb5d9d528a5a8e081a68751666cf8b7e319d5d7042e"
     },
     "server/match/match/intents.js": {
-      "size": 9314,
-      "sha256": "0f9a436a43e0904a632cf9276cfcf0cd5a971c6c4765a142a26f9a1ef5676756"
+      "size": 9373,
+      "sha256": "ab088485d714a0e1b4c539df4499dfd205c1fef54326218933eb88797f14b2f5"
     },
-    "server/match/match/meltdown.js": {
-      "size": 10451,
-      "sha256": "6b7ee7ed4c80cb87da0542ca7c1f4f02ef7ff75fbba860e1df066b786b5082d0"
+    "server/match/match/prep.js": {
+      "size": 8946,
+      "sha256": "b8fee9189fb6c9eca641d063a6c9f2959a7bddd3bbd804a3794363eb15d18cdd"
     },
-    "server/match/match/phases.js": {
-      "size": 23361,
-      "sha256": "2e4f0455448563899665acb0d36b1c86763fd8ea437fba98a2983825b5a4538d"
+    "server/match/player/acquire.js": {
+      "size": 24236,
+      "sha256": "530abde7a7a563017a133d6a5c42cf23212e88d770f19512d02a33dbe9402ac7"
     },
-    "server/match/player/views.js": {
-      "size": 11381,
-      "sha256": "aebcdfae46442590f88dd33a857cc7650d7814478f6b9cf55a2f9bad0092fff7"
+    "server/match/player/economy.js": {
+      "size": 23007,
+      "sha256": "ec3c5bef2619d0df96b71c578f1c2869029680105e69c744db73e299bb1dc5d0"
     },
-    "server/sim/battle/players.js": {
-      "size": 17136,
-      "sha256": "cd2488a932fb769925d37c13e1ebf3c306cfd62bfa1006103da1f3989f503934"
+    "server/match/pool.js": {
+      "size": 14612,
+      "sha256": "47e4348ceebb55b550c3f2b690bc28f4dba650b3cb25d2cf7382f2b51af592aa"
     },
-    "server/sim/content/hexes.js": {
-      "size": 2620,
-      "sha256": "5f36a4c59c7cfc8c9e3baa95d7ec16aea3f34b10e638984f864a29f13a3df2bc"
+    "server/sim/constants.js": {
+      "size": 21891,
+      "sha256": "affee40618c548482534c5bfec43f5dce85d92ddf9249b890bae2cfca46cf1a7"
     },
-    "server/sim/content/index.js": {
-      "size": 17242,
-      "sha256": "f52bf1494ac095a865f81f1f43595f91e11dfc90896e0eb21300d01e88be7d76"
+    "server/sim/units.js": {
+      "size": 15290,
+      "sha256": "8ab81f877b8c5ee611a584becf16466cb466439c837f398ae700f0d6dec47c89"
     },
-    "shared/hexChanges.js": {
-      "size": 2849,
-      "sha256": "a60c08e6be3c81467835a89f6f47d8617ac5479b6cdecd8f1e684a27b0a2a224"
+    "shared/bandRoutes.js": {
+      "size": 4949,
+      "sha256": "df0459e5a7a0e95f43424a2e226041ba74dcb7e0b4c91593a564023d4e55ab09"
+    },
+    "shared/constants.js": {
+      "size": 41442,
+      "sha256": "70f195a73785ebea4e6b7763efe97e16d3e50874eb97bd23ab04f06a8f07ad57"
     },
     "shared/hexMod.js": {
-      "size": 5822,
-      "sha256": "867f6d52787cdf69a4a9c5ba456cb672bf31cec4d06f2b67cb87264c621be693"
-    },
-    "shared/hexes.js": {
-      "size": 40128,
-      "sha256": "9c5c3f66a962fd6911937da6e0af88bf48c415eb7992e670a68e3c0c7671d83e"
+      "size": 5824,
+      "sha256": "f58fa41307272e86c67b5f7bc861ae88a4120da976e34c9878b7b925a2f8c1f2"
     },
     "shared/protocol.js": {
-      "size": 63913,
-      "sha256": "37de7923c179f7a721ba1a33f31c720702a543d30ed1a2a6dbcd692c8e90ee80"
+      "size": 64078,
+      "sha256": "469fc9e977a9fb41e9874d54eb4cc32250aaff11e743b65ce9a1688ee69f382e"
     }
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.04.tar.gz",
-    "size": 209543,
-    "sha256": "492967f8cc896f9b918a5aa658abee9d0a334426d2f7ce6cabcd588f047e0212",
-    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/sp04x9k2.tar.gz"
+    "name": "hexmod-update-0.04.1.tar.gz",
+    "size": 277509,
+    "sha256": "becd424a51db02e2353a2540c6bcd613da653ad657a47004cd8b1692afc90e2c",
+    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.1.tar.gz"
   }
 }
