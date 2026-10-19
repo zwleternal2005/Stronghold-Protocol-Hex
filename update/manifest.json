@@ -1,111 +1,67 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.04.1",
+  "version": "0.04.2",
   "from": [
-    "0.04"
+    "0.04.1"
   ],
-  "publishedAt": "2026-10-19T09:56:20.254Z",
-  "notes": "道具商店 / 装备库存上限全局解除 / 盟约定向刷新20% / 修复无尽熔毁与人事部文档 / 攻速上限3000",
+  "publishedAt": "2026-10-19T12:38:34.990Z",
+  "notes": "缺人同盟房间列表 / 房间公开开关 / 热更新不再中断对局 / 修复房间人数滑杆",
   "files": {
-    "data/effects.json": {
-      "size": 253407,
-      "sha256": "7f290c46e1a6612b8a495404415b815625bdf817ff73fe64413ed93e5c2cd66e"
+    "public/css/screens/lobby.css": {
+      "size": 192511,
+      "sha256": "47b8153b06e3e16089181064922f283a3cf1cb3fe784257c88a4d832f4b94b9c"
     },
-    "data/items.json": {
-      "size": 170786,
-      "sha256": "13a4e30c067f0874d5019edeb442294aa2b92ebfbfabef5d701d54cf92823742"
+    "public/css/screens/room.css": {
+      "size": 40767,
+      "sha256": "d221262c3059ba72056b5dbed274653dbe53adc7c659d819bdbed880a4ff19b4"
     },
-    "public/css/screens/hex.css": {
-      "size": 57838,
-      "sha256": "70c37f8eaa540513f1674b50fdd1955987956855d4ca4fd202281299286e70b4"
+    "public/js/main.js": {
+      "size": 34575,
+      "sha256": "a0f93843b65703dd7c03f561f0738eaf0c215174c042ff0ec8bef3b010d951b0"
     },
-    "public/js/screens/game.js": {
-      "size": 111185,
-      "sha256": "9facc20dca7b393fdcb2d0a5dd6c59b5e9d8b80429ac545bff4c1d1067d31e96"
+    "public/js/screens/lobby.js": {
+      "size": 84934,
+      "sha256": "fd03815b03ab2c673678e2c6c8a1841b5a0e138062e1198d5bcb0ce11fc77d12"
     },
     "public/js/screens/room.js": {
-      "size": 85835,
-      "sha256": "fcc63850854c4fa31493609798c7e4b9b7f6e25fb9a1b376669d322cea953d09"
-    },
-    "public/js/ui/gameActions.js": {
-      "size": 8045,
-      "sha256": "9e871f1a12062e6b34b3e905c186758fe72cd24aa505b62545a1fed5ee9b189f"
+      "size": 86586,
+      "sha256": "8bc5a9c5d569f1b75913efdf270cb6c3b4979f0239a580993de8932596b36d60"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 30015,
-      "sha256": "5ad5b38bc8423b41f48e7140270df0f075d5ae4f2776433ccc3e3484b4bacb73"
+      "size": 32136,
+      "sha256": "1ff1be36501587165a3cf89faf9afb0881caadb6f01f9576ca2e841cec8297bd"
     },
-    "public/js/ui/itemShopOverlay.js": {
-      "size": 4937,
-      "sha256": "3a0420ad59a6f95a40f31c8227e865084d8a2bc586bc54a1963f49179ef0b6f0"
+    "server/autoUpdate.js": {
+      "size": 19963,
+      "sha256": "b5498658d9b6b03377de96606746f73dc6f7c029e5b4b63ad729c71111cd8638"
     },
-    "public/js/ui/shopBar.js": {
-      "size": 30283,
-      "sha256": "965b8971da1395e47320005a6d6d4aa317c60b6d86c59de64ec61d40361a9d43"
+    "server/http/routes.js": {
+      "size": 21207,
+      "sha256": "c841759166e850a1d9c581728b882cb65b385d2231cc055ef2be6ac26c71361e"
     },
-    "server/match/builtinMeta.js": {
-      "size": 20712,
-      "sha256": "ea3dcf2044001abbb3b1b7d78c9f8dbe3d178497a04d85b0efb88e4ca22859ce"
+    "server/index.js": {
+      "size": 40238,
+      "sha256": "a4500089c0f8700c181ede80752f29aa3d848bb5b68e7dff7c162694f1548074"
     },
-    "server/match/effectsMeta.js": {
-      "size": 43641,
-      "sha256": "11a37b1480d8e257923401f6641dad77b4497b172b5d43dc5411d3786537e2c6"
-    },
-    "server/match/invariants.js": {
-      "size": 19860,
-      "sha256": "90b395c4fa95932b9d1d2fb5d9d528a5a8e081a68751666cf8b7e319d5d7042e"
-    },
-    "server/match/match/intents.js": {
-      "size": 9373,
-      "sha256": "ab088485d714a0e1b4c539df4499dfd205c1fef54326218933eb88797f14b2f5"
-    },
-    "server/match/match/prep.js": {
-      "size": 8946,
-      "sha256": "b8fee9189fb6c9eca641d063a6c9f2959a7bddd3bbd804a3794363eb15d18cdd"
-    },
-    "server/match/player/acquire.js": {
-      "size": 24236,
-      "sha256": "530abde7a7a563017a133d6a5c42cf23212e88d770f19512d02a33dbe9402ac7"
-    },
-    "server/match/player/economy.js": {
-      "size": 23007,
-      "sha256": "ec3c5bef2619d0df96b71c578f1c2869029680105e69c744db73e299bb1dc5d0"
-    },
-    "server/match/pool.js": {
-      "size": 14612,
-      "sha256": "47e4348ceebb55b550c3f2b690bc28f4dba650b3cb25d2cf7382f2b51af592aa"
-    },
-    "server/sim/constants.js": {
-      "size": 21891,
-      "sha256": "affee40618c548482534c5bfec43f5dce85d92ddf9249b890bae2cfca46cf1a7"
-    },
-    "server/sim/units.js": {
-      "size": 15290,
-      "sha256": "8ab81f877b8c5ee611a584becf16466cb466439c837f398ae700f0d6dec47c89"
-    },
-    "shared/bandRoutes.js": {
-      "size": 4949,
-      "sha256": "df0459e5a7a0e95f43424a2e226041ba74dcb7e0b4c91593a564023d4e55ab09"
-    },
-    "shared/constants.js": {
-      "size": 41442,
-      "sha256": "70f195a73785ebea4e6b7763efe97e16d3e50874eb97bd23ab04f06a8f07ad57"
+    "server/lobby.js": {
+      "size": 140199,
+      "sha256": "69dd55e6e46d2bfee658a26707e3332417a059700e42a1bb56056a45ecb95b21"
     },
     "shared/hexMod.js": {
       "size": 5824,
-      "sha256": "f58fa41307272e86c67b5f7bc861ae88a4120da976e34c9878b7b925a2f8c1f2"
+      "sha256": "b177c8b5bc0f1c266bf66d4656f8650f9ca20be7b28ea6801fcd66af5bbf8ebd"
     },
     "shared/protocol.js": {
-      "size": 64078,
-      "sha256": "469fc9e977a9fb41e9874d54eb4cc32250aaff11e743b65ce9a1688ee69f382e"
+      "size": 64262,
+      "sha256": "6548a56e9832cadaca270d6510daeb14a593e698c4c5e9ed32a9f0d41369780d"
     }
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.04.1.tar.gz",
-    "size": 277509,
-    "sha256": "becd424a51db02e2353a2540c6bcd613da653ad657a47004cd8b1692afc90e2c",
-    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.1.tar.gz"
+    "name": "hexmod-update-0.04.2.tar.gz",
+    "size": 232177,
+    "sha256": "2eccfa9437e6f92a32fb5c1693b04e9cdb26f0b85de174f7aeec09458a0f6050",
+    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.2.tar.gz"
   }
 }
