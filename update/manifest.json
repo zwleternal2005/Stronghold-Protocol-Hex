@@ -5,24 +5,76 @@
   "from": [
     "0.04.2"
   ],
-  "publishedAt": "2026-10-20T05:14:51.662Z",
-  "notes": "无尽R15隐秘Boss / 熔毁每次重开 / 回合数真实显示 / 手机端界面自适应",
+  "publishedAt": "2026-10-20T06:13:52.932Z",
+  "notes": "双盟约海克斯焚荒之冰 / 大厅聊天 / 房间标签 / 自选海克斯 / 无尽R15 / 熔毁 / 分辨率自适应",
   "files": {
+    "public/css/components.css": {
+      "size": 68174,
+      "sha256": "65a552191455e1c31a507b9ad93f0442c732e410a7a95ad688c5decbb488e9fd"
+    },
     "public/css/screens/hex.css": {
-      "size": 58709,
-      "sha256": "0266c3d8f0384dab67c5d8b903d6125fcb9273708d7d750f763f1386b3fb1ca5"
+      "size": 60734,
+      "sha256": "a321b370f1ca6f7b5bac4c271e7bd28d1d565384934c5de732a685790317bce3"
+    },
+    "public/css/screens/lobby.css": {
+      "size": 198670,
+      "sha256": "f4e122499803b963e29ea3cf9d56ab3ad09719291e3c27a807ebd88348911c07"
+    },
+    "public/css/screens/room.css": {
+      "size": 41244,
+      "sha256": "fc829aa32a6384dc20c3b1738be31ebdacbeae93442cb89b3776eee103a11048"
     },
     "public/css/theme.css": {
       "size": 15354,
       "sha256": "10071f0a7986d6aa256a3052bb060654affe7743e294accb95ba8e66a0afba0a"
     },
+    "public/js/main.js": {
+      "size": 35413,
+      "sha256": "06b50dd7876955d9669e0efd44bbb3b26fac153e1730fc5acd678cf9beab33bf"
+    },
+    "public/js/screens/lobby.js": {
+      "size": 88485,
+      "sha256": "37e1f4feda6dc1945a3938a782f43e2c57335f70edaedc0d4120dd62c965cea7"
+    },
+    "public/js/screens/room.js": {
+      "size": 87451,
+      "sha256": "cb85a8dc012df5bd4ece12a6fa1fa4bfdd2bf73efdea051157cdc4705ad64a7f"
+    },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 34280,
-      "sha256": "850539499d1123316b6b9ebb045766b4d68acdcbb6992fdf3864a7a2e8d55ec1"
+      "size": 35139,
+      "sha256": "9006f39384aef5ecf4c7c0a10a383b6446eff79b4c25c7ca901e074d61bbb08d"
+    },
+    "public/js/ui/hexCodex.js": {
+      "size": 9925,
+      "sha256": "50c49d7c26e633825093c16f919c7ae20375e50bb56e94440f5618b62c6ad6bb"
+    },
+    "public/js/ui/hexGlyph.js": {
+      "size": 2440,
+      "sha256": "c30c1e997cc5cc9164a52b282452fe3bb363a96eabd071e057663a1f41217b17"
     },
     "public/js/ui/hud.js": {
       "size": 35537,
       "sha256": "45abc000d52a3fe4c24a7ce80ee2cce530f21795e764495800743305a9285833"
+    },
+    "public/js/ui/meltdownOverlay.js": {
+      "size": 9117,
+      "sha256": "c6a33e2b78549ff4859fbddd11718de7b308e25e65db41d6914bf409a1a41a0a"
+    },
+    "public/js/ui/ownerName.js": {
+      "size": 1027,
+      "sha256": "82dc8b8f24e45d979ef58b847097f45af16f6f3c24048c68c03b7efc864ef5ff"
+    },
+    "server/lobby.js": {
+      "size": 147427,
+      "sha256": "3036dc1fcf0bfd812320165a4c638baf811847896f0580d6f7427c2725b9daf5"
+    },
+    "server/match/Match.js": {
+      "size": 48589,
+      "sha256": "c62df74db287499032b35b065d397c1f424aa4620d4415b4048d2a442a61bdc7"
+    },
+    "server/match/fields.js": {
+      "size": 50854,
+      "sha256": "4fd86caa1c544900f19bf6ac77351215e9567dfdbc24dbba5c21714c4f849bd7"
     },
     "server/match/gamedata.js": {
       "size": 44074,
@@ -32,24 +84,56 @@
       "size": 36093,
       "sha256": "0eb0613d31b82e7af9547262fee443d719f08fff30061e19a209cf3a6db2bb1e"
     },
+    "server/match/match/hexDraft.js": {
+      "size": 67346,
+      "sha256": "5f9352ce35aab983cea0076ceca2dfa8c3792f4f3a3994fbbde62675b95c4ace"
+    },
     "server/match/match/views.js": {
       "size": 25767,
       "sha256": "1962591d63de02212262d839c7fdf152a53cfc629f1bf8d23c3dd3f66c0b47ae"
+    },
+    "server/match/player/economy.js": {
+      "size": 23638,
+      "sha256": "f0cbcc001ee4b04e86c236461bc551032d65a44adda18f22bb36a0b11192b569"
+    },
+    "server/net.js": {
+      "size": 44966,
+      "sha256": "0595f789344b3018d763b857fd8d1aadda7d0f6b6efc02f2a90e531ac1e07d03"
+    },
+    "server/sim/content/bonds/core.js": {
+      "size": 58135,
+      "sha256": "943681e7a3bf31383f1d6fe69f322a75709c72b31df93608ad3c343ba5c335cb"
     },
     "server/viewsDelta.js": {
       "size": 19629,
       "sha256": "05588c0d398571f0cd78af42a1c35a7ecb90d5ef184eb412c7e386a86995d626"
     },
+    "shared/hexChanges.js": {
+      "size": 2168,
+      "sha256": "59aaa22298a7b0bab7deeda284f69e61e45ac6524c45a7e5ade33b8aab161096"
+    },
     "shared/hexMod.js": {
       "size": 5824,
       "sha256": "5d6fbb59d442719aa8039349a082148bca10c8e2e09526c70f72ede94c380210"
+    },
+    "shared/hexes.js": {
+      "size": 43190,
+      "sha256": "f901bcd6fa539316ce93271877d9ef1b1c65b5961389fa17e5adde687ff84ce4"
+    },
+    "shared/ownerNames.js": {
+      "size": 2411,
+      "sha256": "a7373c34798d5918b5f7e1dc6f7177b2db8116d494063fa86e655b259a4da938"
+    },
+    "shared/protocol.js": {
+      "size": 65726,
+      "sha256": "bf14c4261b8eff502a9eab4fb24add6d9db34aa684b2645a7afb188f2adae220"
     }
   },
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.3.tar.gz",
-    "size": 89510,
-    "sha256": "ad28da3c0af08de3ff58672af95a8ddf2956796a8c25ab704104c430ad91f9d9",
+    "size": 424166,
+    "sha256": "8bc93cdf66002f31010511e9f1bb0bc9f15492b9d063bb97ff4c02dfaff47c2f",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.3.tar.gz"
   }
 }
