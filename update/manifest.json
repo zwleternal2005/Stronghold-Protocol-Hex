@@ -5,8 +5,8 @@
   "from": [
     "0.04.2"
   ],
-  "publishedAt": "2026-10-20T06:31:38.597Z",
-  "notes": "双盟约海克斯焚荒之冰（无层数上限）/ 大厅聊天 / 房间标签含自选 / 自选海克斯全员 / 无尽R15 / 熔毁 / 分辨率自适应",
+  "publishedAt": "2026-10-20T06:44:31.026Z",
+  "notes": "双盟约焚荒之冰（真伤改为实际伤害 1%/3% · 需灼燃+寒冷/冻结）/ 大厅聊天 / 房间标签 / 自选海克斯 / 无尽R15",
   "files": {
     "public/css/components.css": {
       "size": 68174,
@@ -105,24 +105,24 @@
       "sha256": "0595f789344b3018d763b857fd8d1aadda7d0f6b6efc02f2a90e531ac1e07d03"
     },
     "server/sim/content/bonds/core.js": {
-      "size": 58135,
-      "sha256": "943681e7a3bf31383f1d6fe69f322a75709c72b31df93608ad3c343ba5c335cb"
+      "size": 58520,
+      "sha256": "69bcf77f9f5c78f63c2abb7985cb7641ee229853779e968429011191cad9cd64"
     },
     "server/viewsDelta.js": {
       "size": 19629,
       "sha256": "05588c0d398571f0cd78af42a1c35a7ecb90d5ef184eb412c7e386a86995d626"
     },
     "shared/hexChanges.js": {
-      "size": 2168,
-      "sha256": "59aaa22298a7b0bab7deeda284f69e61e45ac6524c45a7e5ade33b8aab161096"
+      "size": 2213,
+      "sha256": "f7bff12fb82e8eaaa2c8a75fd0100e62e22d8b2923cec01ae536b0a40a80734d"
     },
     "shared/hexMod.js": {
       "size": 5824,
       "sha256": "5d6fbb59d442719aa8039349a082148bca10c8e2e09526c70f72ede94c380210"
     },
     "shared/hexes.js": {
-      "size": 43190,
-      "sha256": "f901bcd6fa539316ce93271877d9ef1b1c65b5961389fa17e5adde687ff84ce4"
+      "size": 43306,
+      "sha256": "32e6d86e1c79f91065350fcf33215b9da750b136f2bc9550181285b15e86d0da"
     },
     "shared/ownerNames.js": {
       "size": 2411,
@@ -136,8 +136,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.3.tar.gz",
-    "size": 427850,
-    "sha256": "9805c3302dee009ed2c62993837d64a8b4ee0cef10485f30407c111e1458f6ff",
+    "size": 428128,
+    "sha256": "ed0592a5a19c555fd77b51741641bf908ae03c1129db0e2e834bcc5320ec3610",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.3.tar.gz"
   }
 }
