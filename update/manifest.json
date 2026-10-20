@@ -1,67 +1,55 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.04.2",
+  "version": "0.04.3",
   "from": [
-    "0.04.1"
+    "0.04.2"
   ],
-  "publishedAt": "2026-10-19T12:38:34.990Z",
-  "notes": "缺人同盟房间列表 / 房间公开开关 / 热更新不再中断对局 / 修复房间人数滑杆",
+  "publishedAt": "2026-10-20T05:14:51.662Z",
+  "notes": "无尽R15隐秘Boss / 熔毁每次重开 / 回合数真实显示 / 手机端界面自适应",
   "files": {
-    "public/css/screens/lobby.css": {
-      "size": 192511,
-      "sha256": "47b8153b06e3e16089181064922f283a3cf1cb3fe784257c88a4d832f4b94b9c"
+    "public/css/screens/hex.css": {
+      "size": 58709,
+      "sha256": "0266c3d8f0384dab67c5d8b903d6125fcb9273708d7d750f763f1386b3fb1ca5"
     },
-    "public/css/screens/room.css": {
-      "size": 40767,
-      "sha256": "d221262c3059ba72056b5dbed274653dbe53adc7c659d819bdbed880a4ff19b4"
-    },
-    "public/js/main.js": {
-      "size": 34575,
-      "sha256": "a0f93843b65703dd7c03f561f0738eaf0c215174c042ff0ec8bef3b010d951b0"
-    },
-    "public/js/screens/lobby.js": {
-      "size": 84934,
-      "sha256": "fd03815b03ab2c673678e2c6c8a1841b5a0e138062e1198d5bcb0ce11fc77d12"
-    },
-    "public/js/screens/room.js": {
-      "size": 86586,
-      "sha256": "8bc5a9c5d569f1b75913efdf270cb6c3b4979f0239a580993de8932596b36d60"
+    "public/css/theme.css": {
+      "size": 15354,
+      "sha256": "10071f0a7986d6aa256a3052bb060654affe7743e294accb95ba8e66a0afba0a"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 32136,
-      "sha256": "1ff1be36501587165a3cf89faf9afb0881caadb6f01f9576ca2e841cec8297bd"
+      "size": 34280,
+      "sha256": "850539499d1123316b6b9ebb045766b4d68acdcbb6992fdf3864a7a2e8d55ec1"
     },
-    "server/autoUpdate.js": {
-      "size": 19963,
-      "sha256": "b5498658d9b6b03377de96606746f73dc6f7c029e5b4b63ad729c71111cd8638"
+    "public/js/ui/hud.js": {
+      "size": 35537,
+      "sha256": "45abc000d52a3fe4c24a7ce80ee2cce530f21795e764495800743305a9285833"
     },
-    "server/http/routes.js": {
-      "size": 21207,
-      "sha256": "c841759166e850a1d9c581728b882cb65b385d2231cc055ef2be6ac26c71361e"
+    "server/match/gamedata.js": {
+      "size": 44074,
+      "sha256": "a06f15ae00c313af403babb766d779b50ca962a63b8574fc888a913d7eb8b678"
     },
-    "server/index.js": {
-      "size": 40238,
-      "sha256": "a4500089c0f8700c181ede80752f29aa3d848bb5b68e7dff7c162694f1548074"
+    "server/match/match/bossRounds.js": {
+      "size": 36093,
+      "sha256": "0eb0613d31b82e7af9547262fee443d719f08fff30061e19a209cf3a6db2bb1e"
     },
-    "server/lobby.js": {
-      "size": 140199,
-      "sha256": "69dd55e6e46d2bfee658a26707e3332417a059700e42a1bb56056a45ecb95b21"
+    "server/match/match/views.js": {
+      "size": 25767,
+      "sha256": "1962591d63de02212262d839c7fdf152a53cfc629f1bf8d23c3dd3f66c0b47ae"
+    },
+    "server/viewsDelta.js": {
+      "size": 19629,
+      "sha256": "05588c0d398571f0cd78af42a1c35a7ecb90d5ef184eb412c7e386a86995d626"
     },
     "shared/hexMod.js": {
       "size": 5824,
-      "sha256": "b177c8b5bc0f1c266bf66d4656f8650f9ca20be7b28ea6801fcd66af5bbf8ebd"
-    },
-    "shared/protocol.js": {
-      "size": 64262,
-      "sha256": "6548a56e9832cadaca270d6510daeb14a593e698c4c5e9ed32a9f0d41369780d"
+      "sha256": "5d6fbb59d442719aa8039349a082148bca10c8e2e09526c70f72ede94c380210"
     }
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.04.2.tar.gz",
-    "size": 232177,
-    "sha256": "2eccfa9437e6f92a32fb5c1693b04e9cdb26f0b85de174f7aeec09458a0f6050",
-    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.2.tar.gz"
+    "name": "hexmod-update-0.04.3.tar.gz",
+    "size": 89510,
+    "sha256": "ad28da3c0af08de3ff58672af95a8ddf2956796a8c25ab704104c430ad91f9d9",
+    "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.3.tar.gz"
   }
 }
