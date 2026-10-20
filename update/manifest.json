@@ -5,24 +5,24 @@
   "from": [
     "0.04.2"
   ],
-  "publishedAt": "2026-10-20T06:13:52.932Z",
-  "notes": "双盟约海克斯焚荒之冰 / 大厅聊天 / 房间标签 / 自选海克斯 / 无尽R15 / 熔毁 / 分辨率自适应",
+  "publishedAt": "2026-10-20T06:31:38.597Z",
+  "notes": "双盟约海克斯焚荒之冰（无层数上限）/ 大厅聊天 / 房间标签含自选 / 自选海克斯全员 / 无尽R15 / 熔毁 / 分辨率自适应",
   "files": {
     "public/css/components.css": {
       "size": 68174,
       "sha256": "65a552191455e1c31a507b9ad93f0442c732e410a7a95ad688c5decbb488e9fd"
     },
     "public/css/screens/hex.css": {
-      "size": 60734,
-      "sha256": "a321b370f1ca6f7b5bac4c271e7bd28d1d565384934c5de732a685790317bce3"
+      "size": 62643,
+      "sha256": "c5435314d89af19cfdad176729d8cb43812a6b1356ec19911471ff7c2a8b6c6d"
     },
     "public/css/screens/lobby.css": {
       "size": 198670,
       "sha256": "f4e122499803b963e29ea3cf9d56ab3ad09719291e3c27a807ebd88348911c07"
     },
     "public/css/screens/room.css": {
-      "size": 41244,
-      "sha256": "fc829aa32a6384dc20c3b1738be31ebdacbeae93442cb89b3776eee103a11048"
+      "size": 42385,
+      "sha256": "bc1251fbbad2ef21f0cd6cc12f0ea35bfca23aee709b7e92f277950859a0bef6"
     },
     "public/css/theme.css": {
       "size": 15354,
@@ -41,8 +41,8 @@
       "sha256": "cb85a8dc012df5bd4ece12a6fa1fa4bfdd2bf73efdea051157cdc4705ad64a7f"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 35139,
-      "sha256": "9006f39384aef5ecf4c7c0a10a383b6446eff79b4c25c7ca901e074d61bbb08d"
+      "size": 32778,
+      "sha256": "0a9377f04fc9dc400bdfcdd36687756a3c528d28872459bb3cf8166c4828311a"
     },
     "public/js/ui/hexCodex.js": {
       "size": 9925,
@@ -51,6 +51,10 @@
     "public/js/ui/hexGlyph.js": {
       "size": 2440,
       "sha256": "c30c1e997cc5cc9164a52b282452fe3bb363a96eabd071e057663a1f41217b17"
+    },
+    "public/js/ui/hexOverlay.js": {
+      "size": 10260,
+      "sha256": "5aabb3f091d748b5103fd662c3706e8a3b642d294b60bbe86f85f0d343a5dd3e"
     },
     "public/js/ui/hud.js": {
       "size": 35537,
@@ -85,8 +89,8 @@
       "sha256": "0eb0613d31b82e7af9547262fee443d719f08fff30061e19a209cf3a6db2bb1e"
     },
     "server/match/match/hexDraft.js": {
-      "size": 67346,
-      "sha256": "5f9352ce35aab983cea0076ceca2dfa8c3792f4f3a3994fbbde62675b95c4ace"
+      "size": 67654,
+      "sha256": "6a414529a22c583efbd1014bfc3eddad3e5861a923d3e8da94e21b912edd858a"
     },
     "server/match/match/views.js": {
       "size": 25767,
@@ -132,8 +136,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.3.tar.gz",
-    "size": 424166,
-    "sha256": "8bc93cdf66002f31010511e9f1bb0bc9f15492b9d063bb97ff4c02dfaff47c2f",
+    "size": 427850,
+    "sha256": "9805c3302dee009ed2c62993837d64a8b4ee0cef10485f30407c111e1458f6ff",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.3.tar.gz"
   }
 }
