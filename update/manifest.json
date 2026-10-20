@@ -5,28 +5,28 @@
   "from": [
     "0.04.2"
   ],
-  "publishedAt": "2026-10-20T06:48:47.757Z",
-  "notes": "双盟约焚荒之冰（真伤转为实际伤害 1%/3%）/ 大厅聊天 / 缺人同盟与房间标签 / 自选海克斯 / 无尽R15 / 界面自适应",
+  "publishedAt": "2026-10-20T07:27:13.880Z",
+  "notes": "双盟约焚荒之冰（真伤转为实际伤害 1%/3%）/ 大厅聊天 / 房间标签与自选 / 无尽R15 / 小屏改为等比缩放",
   "files": {
     "public/css/components.css": {
       "size": 68174,
       "sha256": "65a552191455e1c31a507b9ad93f0442c732e410a7a95ad688c5decbb488e9fd"
     },
     "public/css/screens/hex.css": {
-      "size": 62643,
-      "sha256": "c5435314d89af19cfdad176729d8cb43812a6b1356ec19911471ff7c2a8b6c6d"
+      "size": 61906,
+      "sha256": "dec8b52404d70c5d76c947934ef5a36026eba46b77bdfef4188b003904faa84c"
     },
     "public/css/screens/lobby.css": {
-      "size": 198670,
-      "sha256": "f4e122499803b963e29ea3cf9d56ab3ad09719291e3c27a807ebd88348911c07"
+      "size": 198573,
+      "sha256": "20027900ac910ec6791d0655c88248bf027fff1c5cc0da0e80daba3c457b9660"
     },
     "public/css/screens/room.css": {
       "size": 42385,
       "sha256": "bc1251fbbad2ef21f0cd6cc12f0ea35bfca23aee709b7e92f277950859a0bef6"
     },
     "public/css/theme.css": {
-      "size": 15354,
-      "sha256": "10071f0a7986d6aa256a3052bb060654affe7743e294accb95ba8e66a0afba0a"
+      "size": 15785,
+      "sha256": "463445d7070a7a7c0af3704a6fe021a3d5d9dc31328908a82159bf85843aa96a"
     },
     "public/js/main.js": {
       "size": 35413,
@@ -136,8 +136,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.4.tar.gz",
-    "size": 428133,
-    "sha256": "2c7fde9653dd4e735a89e80b1eef257487f2201ea0e73a6e836dbf7450576466",
+    "size": 427698,
+    "sha256": "bc6e04160e40b44aaaa726e02133e46d4e15ad2b38f0644045ff1942daada99d",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.4.tar.gz"
   }
 }
