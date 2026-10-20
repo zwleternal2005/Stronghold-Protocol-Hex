@@ -5,8 +5,8 @@
   "from": [
     "0.04.2"
   ],
-  "publishedAt": "2026-10-20T07:27:13.880Z",
-  "notes": "双盟约焚荒之冰（真伤转为实际伤害 1%/3%）/ 大厅聊天 / 房间标签与自选 / 无尽R15 / 小屏改为等比缩放",
+  "publishedAt": "2026-10-20T07:30:35.249Z",
+  "notes": "双盟约焚荒之冰（真伤=实际伤害 1%/3%）/ 大厅聊天 / 房间标签与自选 / 无尽R15 / 小屏等比缩放",
   "files": {
     "public/css/components.css": {
       "size": 68174,
@@ -41,8 +41,8 @@
       "sha256": "cb85a8dc012df5bd4ece12a6fa1fa4bfdd2bf73efdea051157cdc4705ad64a7f"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 32778,
-      "sha256": "7c87c1cd03d9bb3c515e4a0e82da43a3437ec04c09bd93b91c54d8183ba5d9f4"
+      "size": 32808,
+      "sha256": "932ff200e594ae30619a8ded7a5753c41dc34544dea4fefb3ffbe9b83c6e0836"
     },
     "public/js/ui/hexCodex.js": {
       "size": 9925,
@@ -136,8 +136,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.04.4.tar.gz",
-    "size": 427698,
-    "sha256": "bc6e04160e40b44aaaa726e02133e46d4e15ad2b38f0644045ff1942daada99d",
+    "size": 427711,
+    "sha256": "9f498a866f6db34c9839a391dbea839eaa55e312c7a9f8bd372513ffe8a27066",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.04.4.tar.gz"
   }
 }
