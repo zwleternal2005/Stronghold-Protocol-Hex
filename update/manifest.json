@@ -1,18 +1,19 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.05",
+  "version": "0.05.1",
   "from": [
     "0.04.2",
     "0.04.3",
-    "0.04.4"
+    "0.04.4",
+    "0.05"
   ],
-  "publishedAt": "2026-10-21T00:35:43.724Z",
-  "notes": "海克斯模组 v0.05 · 战争天梯（拉特兰炫彩）/ 全能穿透词条 / 全属性折算穿透 / 沙暴增强 / 名刀冷却 / 弹药统计与自选修复",
+  "publishedAt": "2026-10-21T19:34:41.039Z",
+  "notes": "海克斯模组 v0.05.1 · 修复战争天梯阶梯奖励不发放；修复 Boss 关共享血池空转结算；新增僵尸连接回收（连续 1 小时无操作且阵容未变自动断开）",
   "files": {
     "public/css/components.css": {
-      "size": 72227,
-      "sha256": "3cc94692645056abc8c81076bc1281ea34c90e557417a703e8bf005457903e2a"
+      "size": 72581,
+      "sha256": "8e520652ab63ddf47ce4888f1832c755e3821c19a85d392c871122225dfa35ae"
     },
     "public/css/devices.css": {
       "size": 13854,
@@ -35,8 +36,8 @@
       "sha256": "b5fd4e0b53ddb631c31b28246c7d83a9b636814c986e5fafbbd7cd066e8b03a7"
     },
     "public/css/screens/hex.css": {
-      "size": 61980,
-      "sha256": "9598158553716bf6374cc0f396d2d5c2f9e9fb28818228956efd86c0df81387d"
+      "size": 62878,
+      "sha256": "81e1a89f525f4a9d77e842427af91db58972599165954f964aa574c2e3ad8550"
     },
     "public/css/screens/loadout.css": {
       "size": 87132,
@@ -63,8 +64,12 @@
       "sha256": "2617bf7d366ff5353ed6ec461ddf621f3d60804b88077c80b715dd9d7df522bd"
     },
     "public/js/main.js": {
-      "size": 35612,
-      "sha256": "564e6cd52a120173be9b6aa9f8a0e4a5f7d3fbacf7f32615e42d664b85cc3ad1"
+      "size": 35662,
+      "sha256": "72867b8e1ea8dffa489128fc1ec7cf18454e8f567c927a0c7915b1f5d10e51e2"
+    },
+    "public/js/net.js": {
+      "size": 42809,
+      "sha256": "b23625ac4048aa44b324c65dffe7c82ef214d34aff130c6460acff7d76805ea5"
     },
     "public/js/render/app.js": {
       "size": 123862,
@@ -91,8 +96,8 @@
       "sha256": "4c53e20456881f68c44f269c9ade79c35890158e920aad6f251fc800292dabdd"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 39069,
-      "sha256": "7fd47a197e5fdf25111086b3990b063a447f669243c4229f4b44ee94373f2f42"
+      "size": 40318,
+      "sha256": "4d182646765d38fb31bdd4ce52b339d11ebcb2512603da5fabc38007645f9c44"
     },
     "public/js/ui/hexCodex.js": {
       "size": 9925,
@@ -130,9 +135,21 @@
       "size": 20339,
       "sha256": "d6e69aedd13216864d4ddee1704801049e291c9e088b793a0056bac764bad4d5"
     },
+    "server/http/admin.js": {
+      "size": 18121,
+      "sha256": "2d67a0db0458cd56ac8eab2a8839e6fd68790b3f77a658ec8e816d3cce254962"
+    },
+    "server/http/routes.js": {
+      "size": 21411,
+      "sha256": "9fe9fd1b7acac7b1c82e85e41888d49d63a10395d2c14620fc30a1d85bb1fe76"
+    },
+    "server/index.js": {
+      "size": 40535,
+      "sha256": "55d06ca73aa8af1bdca19aa73dfd5cc10a7d483be8c1a11323cdc83f8a68bf47"
+    },
     "server/lobby.js": {
-      "size": 147427,
-      "sha256": "3036dc1fcf0bfd812320165a4c638baf811847896f0580d6f7427c2725b9daf5"
+      "size": 154500,
+      "sha256": "5de7009fa4cc638b65e4313d4934085e161e64649d18dcd32315e69815b4236e"
     },
     "server/match/Match.js": {
       "size": 48661,
@@ -151,8 +168,8 @@
       "sha256": "a06f15ae00c313af403babb766d779b50ca962a63b8574fc888a913d7eb8b678"
     },
     "server/match/match/bossRounds.js": {
-      "size": 36093,
-      "sha256": "0eb0613d31b82e7af9547262fee443d719f08fff30061e19a209cf3a6db2bb1e"
+      "size": 36741,
+      "sha256": "7b0a9ad6fcafb18d1245dff13ccf694a9ac9e8b6db50f3388a328f86f6fcfe44"
     },
     "server/match/match/chaosRoll.js": {
       "size": 12745,
@@ -171,8 +188,8 @@
       "sha256": "a6793ee5b680ca9a6cdfbf655b5c4055eed97711aa941004409796145b37031e"
     },
     "server/match/match/settle.js": {
-      "size": 13130,
-      "sha256": "b057a252313c511b19d464dd7b33a044721a6b3e49fc6b1595d25066d015ccb2"
+      "size": 13589,
+      "sha256": "76a9cecc8c45c2dbf6ded08eaf2f4b66d76d79ace9e2f4af8fb31ec97bef8feb"
     },
     "server/match/match/views.js": {
       "size": 25767,
@@ -203,20 +220,20 @@
       "sha256": "9bf0968e1d457012f0afdb9718da166c11595f748aac43f01248a1fb9e95efb4"
     },
     "server/net.js": {
-      "size": 44966,
-      "sha256": "0595f789344b3018d763b857fd8d1aadda7d0f6b6efc02f2a90e531ac1e07d03"
+      "size": 47538,
+      "sha256": "2021690cecb1c54e3db36dcda104e0382136512152c7622a8890d7fdbf6321fb"
     },
     "server/sim/Battle.js": {
       "size": 18589,
       "sha256": "91f362fb3f992a10b440e09356e0aa94ec9df8f7cdd452292b02266509d15b89"
     },
     "server/sim/battle/deploy.js": {
-      "size": 16840,
-      "sha256": "9967f14061de1933c1eed11504ed35ef5ae065176578baf7d1c0e7d594d5372a"
+      "size": 17413,
+      "sha256": "71a7a2831576fbd10bef3e8ba0d49cd003c6dfe286ccb8cd447d0a3ace25c352"
     },
     "server/sim/battle/lifecycle.js": {
-      "size": 15362,
-      "sha256": "55ccf24e1eff4c5d0f7e108a7ad3930fcc9712c4c47cd5b4e452260f42b21d66"
+      "size": 16347,
+      "sha256": "c3f4f6af651b16fde4194a53c350db78d6962d6108ec368798c25a729ec75174"
     },
     "server/sim/battle/players.js": {
       "size": 17230,
@@ -225,6 +242,10 @@
     "server/sim/content/bonds/core.js": {
       "size": 62521,
       "sha256": "02d5d5b9a60bcaef738cd88567d0e3783b756367ddaa489d28360b4aec4cf025"
+    },
+    "server/sim/content/bosses.js": {
+      "size": 75898,
+      "sha256": "37b572521c5cc2887a9b869169ae67f2e95842baa1c47e75cfa791b8a93bbe72"
     },
     "server/sim/content/hexes.js": {
       "size": 4534,
@@ -242,29 +263,33 @@
       "size": 19629,
       "sha256": "05588c0d398571f0cd78af42a1c35a7ecb90d5ef184eb412c7e386a86995d626"
     },
+    "shared/constants.js": {
+      "size": 41609,
+      "sha256": "0920cbee06fc2adca3602dd76caaccc14773c0f47eb89b380179e24cc0c1a36c"
+    },
     "shared/hexChanges.js": {
-      "size": 8929,
-      "sha256": "1343599b731c3a69d4fb00ba11e5cd60c91a9763c29c90f0e8112c3d01c6f139"
+      "size": 8931,
+      "sha256": "ce710ab6918770520b4d1c7d5970a77b86888bc7f3737841d0a5eb4453f40317"
     },
     "shared/hexMod.js": {
-      "size": 5822,
-      "sha256": "1de234076885644d5479c246a84eb93f0be52798284d7b4cc2e096ed71fb7c77"
+      "size": 5824,
+      "sha256": "e4a4eb82647d97998f9a10bf20f32596bdcab9a2f0b14718cf361ca12fb92352"
     },
     "shared/hexes.js": {
       "size": 47916,
       "sha256": "479ca97457b4a95136d1bc53e30f3e6b59b8309c672730ca9cb258b1fbc3f992"
     },
     "shared/ownerNames.js": {
-      "size": 2411,
-      "sha256": "a7373c34798d5918b5f7e1dc6f7177b2db8116d494063fa86e655b259a4da938"
+      "size": 4310,
+      "sha256": "2d5744fe80664e3a3c3020c2c5437885ece8fdea0c46446f6a028dc28bc81a2f"
     },
     "shared/pierce.js": {
       "size": 6565,
       "sha256": "1e7db1e76e687faf5dca0c32c8058ca458bd7948e05d4cd621efafadc3374526"
     },
     "shared/protocol.js": {
-      "size": 66144,
-      "sha256": "99038ee6365e6b089938739bd6c2fb61ec2f7b841fbca01d82bc89cbe4de8d1d"
+      "size": 66308,
+      "sha256": "48fbdbe2af0a3c3033c2c89890821b979ce3fe3817ff5fcb80e6eb57dae5e797"
     },
     "shared/warLadder.js": {
       "size": 2523,
@@ -273,9 +298,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.05-9770d018.tar.gz",
-    "size": 742828,
-    "sha256": "9770d018b00d554e918c2be3cf43250da8136691ee54761909d898b584fb3c7b",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05-9770d018.tar.gz"
+    "name": "hexmod-update-0.05.1-bdfcf713.tar.gz",
+    "size": 834856,
+    "sha256": "bdfcf713170cecf01560d340075d42c6255e56bca6d4c73ccf0ea42e45918653",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05.1-bdfcf713.tar.gz"
   }
 }
