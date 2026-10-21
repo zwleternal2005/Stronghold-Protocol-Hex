@@ -3,9 +3,11 @@
   "kind": "hexmod-auto-update",
   "version": "0.05",
   "from": [
-    "0.04.2"
+    "0.04.2",
+    "0.04.3",
+    "0.04.4"
   ],
-  "publishedAt": "2026-10-21T00:17:43.520Z",
+  "publishedAt": "2026-10-21T00:22:04.531Z",
   "notes": "海克斯模组 v0.05 · 战争天梯（拉特兰炫彩）/ 全能穿透词条 / 全属性折算穿透 / 沙暴增强 / 名刀冷却 / 弹药统计与自选修复",
   "files": {
     "public/css/components.css": {
@@ -268,8 +270,8 @@
   "removed": [],
   "pack": {
     "name": "hexmod-update-0.05.tar.gz",
-    "size": 736076,
-    "sha256": "6c9b49df09ef2d8c832f9dc06ed39fd2d189b79ebb2ceb183b8400e25e7c649a",
+    "size": 736077,
+    "sha256": "2f7603f723820e8d3613acc04a3ab48b7afd886195909cae2f5ea328ba44f44c",
     "url": "https://raw.githubusercontent.com/Zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05.tar.gz"
   }
 }
