@@ -7,7 +7,7 @@
     "0.04.3",
     "0.04.4"
   ],
-  "publishedAt": "2026-10-21T00:31:36.579Z",
+  "publishedAt": "2026-10-21T00:35:43.724Z",
   "notes": "海克斯模组 v0.05 · 战争天梯（拉特兰炫彩）/ 全能穿透词条 / 全属性折算穿透 / 沙暴增强 / 名刀冷却 / 弹药统计与自选修复",
   "files": {
     "public/css/components.css": {
@@ -125,6 +125,10 @@
     "public/js/ui/warLadderBar.js": {
       "size": 7260,
       "sha256": "27e7055810f76926e437e9df9767a072a529c1cef56fdab08e60cd8ed5b77b5f"
+    },
+    "server/autoUpdate.js": {
+      "size": 20339,
+      "sha256": "d6e69aedd13216864d4ddee1704801049e291c9e088b793a0056bac764bad4d5"
     },
     "server/lobby.js": {
       "size": 147427,
@@ -269,9 +273,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.05-2bc0640a.tar.gz",
-    "size": 736077,
-    "sha256": "2bc0640afdf6c7d219e86b46b137821177cbadf67b68b37824fa252233781b3c",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05-2bc0640a.tar.gz"
+    "name": "hexmod-update-0.05-9770d018.tar.gz",
+    "size": 742828,
+    "sha256": "9770d018b00d554e918c2be3cf43250da8136691ee54761909d898b584fb3c7b",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05-9770d018.tar.gz"
   }
 }
