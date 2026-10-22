@@ -1,20 +1,21 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.05.2",
+  "version": "0.05.2.1",
   "from": [
     "0.04.2",
     "0.04.3",
     "0.04.4",
     "0.05",
-    "0.05.1"
+    "0.05.1",
+    "0.05.2"
   ],
-  "publishedAt": "2026-10-22T10:52:09.797Z",
-  "notes": "海克斯模组 v0.05.2 · 新增「变形同构体强化」开关（不占装备栏 / 只与最左侧道具配对 / 进阶多一格）；修复本地端更新完成后卡住",
+  "publishedAt": "2026-10-22T11:19:14.846Z",
+  "notes": "海克斯模组 v0.05.2.1 · 「装备拓展」（原变形同构体强化，BETA 0.1）：不占装备栏 / 每名一件 / 只与最左侧道具配对 / 进阶多一格；修复本地端更新后卡住",
   "files": {
     "public/css/components.css": {
-      "size": 72581,
-      "sha256": "8e520652ab63ddf47ce4888f1832c755e3821c19a85d392c871122225dfa35ae"
+      "size": 72912,
+      "sha256": "1f2478fa87b5f17ffd1b2280ca76014e3d49eca009bc007333fdf260ba11e72f"
     },
     "public/css/devices.css": {
       "size": 13854,
@@ -85,8 +86,8 @@
       "sha256": "37e1f4feda6dc1945a3938a782f43e2c57335f70edaedc0d4120dd62c965cea7"
     },
     "public/js/screens/room.js": {
-      "size": 88350,
-      "sha256": "368544d55cdeae434cbf0ad82edd96d5c641ddce5ece96dea02a18976bd4357d"
+      "size": 88354,
+      "sha256": "7c8a5cb63c20d9e69abb0940add3bb731492b6f95a76a516a1ea2350022780c4"
     },
     "public/js/screens/title.js": {
       "size": 15956,
@@ -109,8 +110,8 @@
       "sha256": "45a83d85d832fe3f3d5598db0cc3ed25e0626215dfd92cb49deb632de08473f9"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 40903,
-      "sha256": "027fed7afc366414bd9b0e0225583e6f379fe5534e2413933e0ea211c615c40e"
+      "size": 41298,
+      "sha256": "0e55b53cfe796f6c98aae78ac44f78c9116cb57e32a2eafd50fa8a6e92e96f1a"
     },
     "public/js/ui/hexCodex.js": {
       "size": 9925,
@@ -305,12 +306,12 @@
       "sha256": "c4e8665a71b6a97d05a941b1e272d9d9312358f8c0683a7f69e88e46b088da89"
     },
     "shared/hexChanges.js": {
-      "size": 8931,
-      "sha256": "305a3c1b193db9846f4089ebfbe20e90b71256222fe8b5931c607781c14288f1"
+      "size": 8933,
+      "sha256": "8629028e46991368b351943316fb96119c3475e50e956ade18d32b00b3b2d3e6"
     },
     "shared/hexMod.js": {
-      "size": 5824,
-      "sha256": "c710fb31497ff53ea072594901fafe4287a37d2bdebf6992815ee74d0384d43d"
+      "size": 5826,
+      "sha256": "9a8a986895f4b5417240cde553ab12e08c14892bf13cf288f9ff21dec4396321"
     },
     "shared/hexes.js": {
       "size": 47916,
@@ -339,9 +340,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.05.2-8087ae0a.tar.gz",
-    "size": 953579,
-    "sha256": "8087ae0a8394be7d418b2413fd963200ec3d4dc834fa16f5a5457002064763f1",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05.2-8087ae0a.tar.gz"
+    "name": "hexmod-update-0.05.2.1-fe365b5d.tar.gz",
+    "size": 953799,
+    "sha256": "fe365b5d3d1bf50c18385fa7d96b6195e2df8977e5133a8e0163ab540066b353",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.05.2.1-fe365b5d.tar.gz"
   }
 }
