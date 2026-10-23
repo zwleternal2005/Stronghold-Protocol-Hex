@@ -11,8 +11,8 @@
     "0.05.2",
     "0.05.2.1"
   ],
-  "publishedAt": "2026-10-23T13:32:25.791Z",
-  "notes": "海克斯模组 V0.06：新增阿米娅（医疗）与专属战斗效果；调整道具商店与多人牌池；修复联防怪物倍率重复应用、盟约海克斯 ban 资格失效、高攻速攻击丢失与装备显示不全。普通联防重复两轮未复现，不宣称修复。",
+  "publishedAt": "2026-10-23T13:42:16.768Z",
+  "notes": "",
   "files": {
     "data/chess.json": {
       "size": 1886793,
@@ -363,8 +363,8 @@
       "sha256": "a879608c0c0e51f415ce94e72f60342631d62aa80c16cde7214ebe543c4532c7"
     },
     "shared/hexMod.js": {
-      "size": 5922,
-      "sha256": "0dae76d7c8e00ee50ca57ad3702c94d68382e3a6b098ba0f6df8b1b9b6f28045"
+      "size": 5822,
+      "sha256": "e2953f3cca5632b79171c74d3fc0dc13bb9d939ea5bb27a13c377d2dcc44f84e"
     },
     "shared/hexes.js": {
       "size": 48812,
@@ -393,9 +393,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.06-f56be045.tar.gz",
-    "size": 1232184,
-    "sha256": "f56be04515a3877e4019f44103228411f4095ff7464b722d158f1a5e83e1925e",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.06-f56be045.tar.gz"
+    "name": "hexmod-update-0.06-84242f1d.tar.gz",
+    "size": 1232138,
+    "sha256": "84242f1d718c12795957935a5d5cb658160bf69fe6d1bb3ff1b8d022efe0b249",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.06-84242f1d.tar.gz"
   }
 }
