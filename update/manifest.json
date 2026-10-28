@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.06.1",
+  "version": "0.07",
   "from": [
     "0.04.2",
     "0.04.3",
@@ -10,10 +10,11 @@
     "0.05.1",
     "0.05.2",
     "0.05.2.1",
-    "0.06"
+    "0.06",
+    "0.06.1"
   ],
-  "publishedAt": "2026-10-25T15:35:31.803Z",
-  "notes": "海克斯模组 v0.06.1 修复版：修复房间「道具商店」开关错接全局道具的问题（现只作用于独立道具商店）；修复阿米娅（医疗）天赋一「范围内开技能增加盟约层数」在真实对局不生效的问题。无新增海克斯。",
+  "publishedAt": "2026-10-28T12:11:41.061Z",
+  "notes": "海克斯模组 v0.07 修复版：修复道具商店价格倍率设置失效（房间倍率不生效、局内显示价恒 ×5）；修复阿米娅（医疗）光环每名干员整场只加 1 层盟约的问题（现在每次开技能都加层）；补齐服务器缺失的阿米娅模型与头像素材。无新增海克斯。",
   "files": {
     "data/chess.json": {
       "size": 1886793,
@@ -128,8 +129,8 @@
       "sha256": "45a83d85d832fe3f3d5598db0cc3ed25e0626215dfd92cb49deb632de08473f9"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 42978,
-      "sha256": "aa0754ae94e02e5b697fea618a2a65ed9bd974e8a420142017a95d10a2f49295"
+      "size": 44087,
+      "sha256": "c90488deb44d96fd5ebdf943c7e89e9258ed4b4a73b242a9d375b164b2a936d2"
     },
     "public/js/ui/hexCodex.js": {
       "size": 10451,
@@ -192,8 +193,8 @@
       "sha256": "ac96a78f59b881eb68ebff13fa815cfd6d9ff3b32cba3dc190e3e63f8920c569"
     },
     "server/lobby.js": {
-      "size": 155568,
-      "sha256": "bd66d32f8bfa7ab78f0a258580666605b88d4dab3040de790e653ec7fbf77bcf"
+      "size": 156021,
+      "sha256": "038ed4d2b0cf57b6c84d4d3e84d0d29a19a43cad3101326f3234dfaa3a11ecca"
     },
     "server/match/Match.js": {
       "size": 49538,
@@ -336,8 +337,8 @@
       "sha256": "c587d3beaee1365e9adb83f337e1f27a9f14fc352ad52b89c66040efbd18e5bc"
     },
     "server/sim/content/kits/ops/chess_char_5_99-amiya3.js": {
-      "size": 8114,
-      "sha256": "ff79263a6fca4dd178b20944313ec4789e1a95a781cd478c0c7498951eac56e9"
+      "size": 8849,
+      "sha256": "46cdde1e2852218d40e3258086fb0d75db43faee0b98a6a892aa690a53770839"
     },
     "server/sim/content/support/index.js": {
       "size": 27780,
@@ -360,16 +361,16 @@
       "sha256": "45a9b8b3863da187a890f93c42fe2fa63c0bfbd1e89424e1152094a8b93cb85e"
     },
     "shared/constants.js": {
-      "size": 42595,
-      "sha256": "02a2604729e93aef93b5f9f8c00e666a6fa5c49cbf0bb791b5f7589c540bd381"
+      "size": 42876,
+      "sha256": "2dd2060df1c30a5d7e41a7c11fe8958fdd6bd08996ee43f83763f48d1eb4309d"
     },
     "shared/hexChanges.js": {
-      "size": 8931,
-      "sha256": "969ebfa98749838cb5632b7cd2189acbabbf104b06158a9d4a17f05d87ced192"
+      "size": 8929,
+      "sha256": "a054988ffa96387cc985da4ebb0b76f85a8bed2a7f4375c23f24b47b549bd57d"
     },
     "shared/hexMod.js": {
-      "size": 5824,
-      "sha256": "3cf75879597e4fb0e9a19db04c1f543899e04600612bd98d653bfe9c952e65be"
+      "size": 5822,
+      "sha256": "26db6ea13f80e05c8c03c92352e6283c3726e81e592275b50ef28d53f1333aa7"
     },
     "shared/hexes.js": {
       "size": 48812,
@@ -398,9 +399,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.06.1-8f85079c.tar.gz",
-    "size": 1243534,
-    "sha256": "8f85079cfc3b98557aec1359d65e2cdd5f5dcbdaaa8eb423ffaf9a2f86dd60c4",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.06.1-8f85079c.tar.gz"
+    "name": "hexmod-update-0.07-3f50f03a.tar.gz",
+    "size": 1244519,
+    "sha256": "3f50f03abdde703de1a0eec40a47e991e0e3a94978481013a07831763d82ab89",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.07-3f50f03a.tar.gz"
   }
 }
