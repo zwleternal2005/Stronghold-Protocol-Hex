@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "hexmod-auto-update",
-  "version": "0.07.1",
+  "version": "0.07.2",
   "from": [
     "0.04.2",
     "0.04.3",
@@ -12,14 +12,43 @@
     "0.05.2.1",
     "0.06",
     "0.06.1",
-    "0.07"
+    "0.07",
+    "0.07.1"
   ],
-  "publishedAt": "2026-11-02T05:06:40.755Z",
+  "publishedAt": "2026-11-04T02:20:21.894Z",
   "notes": "",
   "files": {
+    "data/backups.json": {
+      "size": 2056413,
+      "sha256": "9420bf771381776fd654e745c82c1230846c02767e6d744ed124ddfa002c9cc6"
+    },
+    "data/bonds.json": {
+      "size": 86173,
+      "sha256": "58c9da4234ce0da6c46e08ba0ec8d7e22aa0ced4ce6d463304faf7597a0de02a"
+    },
+    "data/bosses.json": {
+      "size": 18105,
+      "sha256": "2a54347819d02015e06db1b9d896ed1a9f3f904766517484ec295b9034d34700"
+    },
     "data/chess.json": {
-      "size": 1886793,
-      "sha256": "f0e1582887d46800574822c83fe903acaf1538ac7e635eb15447d89a2425eec4"
+      "size": 1967781,
+      "sha256": "f076dd937b54749e7d826cd1cacef8945cad41d54c4bcf92e6ed9f894eee4d8c"
+    },
+    "data/effects.json": {
+      "size": 253427,
+      "sha256": "96e28be614f04da6d58c9e95706d742863c756b94dcad498e808c3410ba620e3"
+    },
+    "data/enemies.json": {
+      "size": 407279,
+      "sha256": "4f8f37b8672e92e15b1ed0e3ebbec21e9364082ec01a1924ccdc97911af0ff19"
+    },
+    "data/items.json": {
+      "size": 170806,
+      "sha256": "6122a3cd75531f551a03082f000426a2d6b8028788fbd1abbaea5286592fbba4"
+    },
+    "data/tokens.json": {
+      "size": 142970,
+      "sha256": "8eec4578210264776f65c6222c07ecaad2cd0d6f0893734756b98dcd736ae2bb"
     },
     "public/css/components.css": {
       "size": 75633,
@@ -69,6 +98,10 @@
       "size": 15703,
       "sha256": "de2daf2b04f5c6a6e56cc3bc426f6e7cddd7ff34dff49304172726b895e3f2e0"
     },
+    "public/js/audio.js": {
+      "size": 85311,
+      "sha256": "80c52692c6662b20208dfe90764b29017344a73f0c22c2b2947936e971f968f7"
+    },
     "public/js/battle/runner.js": {
       "size": 62406,
       "sha256": "2617bf7d366ff5353ed6ec461ddf621f3d60804b88077c80b715dd9d7df522bd"
@@ -84,6 +117,18 @@
     "public/js/render/app.js": {
       "size": 123862,
       "sha256": "be3288919e4151a1378182b16fae7b4cfdf63cccb6c41c0c589914b2346c99d6"
+    },
+    "public/js/render/fx/arkops.js": {
+      "size": 10800,
+      "sha256": "d0d5cdce0eb41a255017dbd04513a5844099f16ea87d139dc5cf2119382625c1"
+    },
+    "public/js/render/fx/simfx.js": {
+      "size": 20366,
+      "sha256": "3404b81a4b1c1dffacd072dc7aed64a15d760a94e7fb3ad214b4d66e43fe7040"
+    },
+    "public/js/render/fx/system.js": {
+      "size": 8809,
+      "sha256": "f7f2cc6e26918d784e8c0be59e0ef3ce9de8fa7f5a12177b3ec4379395135cc2"
     },
     "public/js/render/units.js": {
       "size": 137105,
@@ -130,8 +175,8 @@
       "sha256": "45a83d85d832fe3f3d5598db0cc3ed25e0626215dfd92cb49deb632de08473f9"
     },
     "public/js/ui/hexAnnouncement.js": {
-      "size": 44513,
-      "sha256": "667696b85b63e00b2cbf922aeab28f0c653ec14622e1d87973764312cc4b82da"
+      "size": 46842,
+      "sha256": "191de788a2009add5b244e3f1bc8a6880a12009c2a92819411fa9f9e289cf0e5"
     },
     "public/js/ui/hexCodex.js": {
       "size": 10451,
@@ -338,12 +383,32 @@
       "sha256": "a84cfa875e55e8ef458895b6b4100abb376252a572042dd289c5e8270596a4ba"
     },
     "server/sim/content/kits/index.js": {
-      "size": 11618,
-      "sha256": "c587d3beaee1365e9adb83f337e1f27a9f14fc352ad52b89c66040efbd18e5bc"
+      "size": 11962,
+      "sha256": "49d119b9e280d2aeb9c84ce0ba6aae09cd51236aeb8f7d51fb9c1a97dc3a388c"
+    },
+    "server/sim/content/kits/ops/chess_char_5_30-alga.js": {
+      "size": 2352,
+      "sha256": "b030ffc577168428df6ed8903e895ee9b1fc948440770af88e56895fe6c11b2f"
     },
     "server/sim/content/kits/ops/chess_char_5_99-amiya3.js": {
       "size": 8849,
       "sha256": "46cdde1e2852218d40e3258086fb0d75db43faee0b98a6a892aa690a53770839"
+    },
+    "server/sim/content/kits/ops/chess_char_6_30-tocka.js": {
+      "size": 8567,
+      "sha256": "3477cf7c27d20fd7dfaeff69936e17785da2b137190c1ae8fb0509d2a459c615"
+    },
+    "server/sim/content/kits/ops/chess_char_6_31-dminon.js": {
+      "size": 5881,
+      "sha256": "9d0a6a0469bf7c898c3620cd83685da1815e12f6e55ed5e0a894631d57d9ece0"
+    },
+    "server/sim/content/kits/ops/chess_char_6_32-oxi.js": {
+      "size": 11040,
+      "sha256": "1cdfe347e2569cc1b4b2a7260597152430ed55e20bdfd6dde49e351789956918"
+    },
+    "server/sim/content/kits/shared/ark-update-20261101.js": {
+      "size": 1867,
+      "sha256": "045c89dd651d3941003ff0be65d10cc72f7e85bcc5063f6959a97863e5f9d8ae"
     },
     "server/sim/content/support/index.js": {
       "size": 28092,
@@ -371,11 +436,11 @@
     },
     "shared/hexChanges.js": {
       "size": 8804,
-      "sha256": "7806bbbfe0cb23a1a090def970f5a259ba921f446eac3bb96408961fba591862"
+      "sha256": "305a0ab7348a37f6fa3a54941f43482ecb2754a8e96ebf4d501d315d0133f002"
     },
     "shared/hexMod.js": {
       "size": 5722,
-      "sha256": "bdec94bbddf9493724003711322f24893aae56a69a0d2faa3c8ce3b2cda4e3e9"
+      "sha256": "09dc2ad2dc838440aa23f16d3f18450b8330b64db33471d594c99c39b0add5d2"
     },
     "shared/hexes.js": {
       "size": 48812,
@@ -404,9 +469,9 @@
   },
   "removed": [],
   "pack": {
-    "name": "hexmod-update-0.07.1-967eb7a6.tar.gz",
-    "size": 1252783,
-    "sha256": "967eb7a66f120f3316488b52bd500349c0cd88f3c21820836a0e356ba4f0a2ca",
-    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.07.1-967eb7a6.tar.gz"
+    "name": "hexmod-update-0.07.2-b0f1155d.tar.gz",
+    "size": 1592128,
+    "sha256": "b0f1155d4109d848b9ec246612eed243754f1a222c92add5c4086575fd34ccc7",
+    "url": "https://raw.githubusercontent.com/zwleternal2005/Stronghold-Protocol-Hex/main/update/packs/hexmod-update-0.07.2-b0f1155d.tar.gz"
   }
 }
